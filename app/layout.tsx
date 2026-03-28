@@ -5,6 +5,7 @@ import "./globals.css";
 const playfair = Playfair_Display({
   variable: "--font-playfair",
   subsets: ["latin"],
+  style: ["normal", "italic"],
 });
 
 const inter = Inter({
@@ -15,7 +16,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Sasha Bergeron, PMHNP-BC | Integrative Psychiatry",
   description:
-    "Board-certified Psychiatric Nurse Practitioner offering integrative mental healthcare in Washington DC, Maryland, and Virginia.",
+    "Board-certified Psychiatric Nurse Practitioner offering integrative mental healthcare and ketamine-assisted psychotherapy in Washington DC, Maryland, and Virginia.",
 };
 
 export default function RootLayout({
@@ -25,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col bg-stone-50 text-stone-800">{children}</body>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }

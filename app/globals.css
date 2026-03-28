@@ -3,6 +3,22 @@
 @theme inline {
   --font-sans: var(--font-inter);
   --font-serif: var(--font-playfair);
+
+  /* Brand palette */
+  --color-forest-900: #0f2a20;
+  --color-forest-800: #1a3d30;
+  --color-forest-700: #1e4d3a;
+  --color-forest-600: #2d6a52;
+  --color-forest-400: #5e9e84;
+  --color-forest-200: #b8d8cc;
+  --color-forest-50:  #eef5f2;
+
+  --color-cream-100: #fdf9f4;
+  --color-cream-200: #f8f2e8;
+
+  --color-clay-500: #c4845a;
+  --color-clay-400: #d49a76;
+  --color-clay-100: #f7ece4;
 }
 
 html {
@@ -11,4 +27,6 @@ html {
 
 body {
   font-family: var(--font-inter), system-ui, sans-serif;
+  background-color: var(--color-cream-100);
+  color: #1c2520;
 }
