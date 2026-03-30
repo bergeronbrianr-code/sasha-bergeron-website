@@ -14,7 +14,7 @@ const credentials = [
     logo: "https://moxieschool.com/wp-content/uploads/2023/05/Moxie-School-Logo-horizontal-white.png",
     alt: "Moxie School",
     href: "https://moxieschool.com",
-    description: "Completed IFS training with Moxie School",
+    description: "Completed training in IFS (Internal Family Systems) informed psychedelic assisted therapy",
     logoBg: "bg-[#1a3d30]",
     logoWidth: 160,
     logoHeight: 52,
